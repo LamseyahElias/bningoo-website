@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Footer() {
   return (
     <footer className="border-t border-white/5 bg-charcoal-950">
@@ -6,9 +8,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-orange-500 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">B</span>
-              </div>
+              <Image
+                src="/logo-nav.png"
+                alt="Bningoo"
+                width={36}
+                height={36}
+                className="h-8 w-auto"
+              />
               <span className="text-white font-bold text-xl">Bningoo</span>
             </div>
             <p className="text-gray-500 text-sm leading-relaxed">

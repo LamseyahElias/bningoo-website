@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ArrowRight, Play } from "lucide-react"
+import Image from "next/image"
 
 export default function HeroSection() {
   return (
@@ -98,24 +99,16 @@ export default function HeroSection() {
             className="hidden lg:block relative"
           >
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden border border-white/10 bg-gradient-to-br from-gray-800 to-charcoal-900">
-              {/* Placeholder for premium food image */}
+              {/* Brand image */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center">
-                  <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-orange-500/20 border border-orange-500/30 flex items-center justify-center">
-                    <svg
-                      className="w-12 h-12 text-orange-500"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={1.5}
-                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                  </div>
+                  <Image
+                    src="/logo.png"
+                    alt="Bningoo"
+                    width={200}
+                    height={200}
+                    className="w-32 h-32 md:w-40 md:h-40 object-contain mx-auto mb-4 opacity-80"
+                  />
                   <p className="text-gray-500 text-sm">Bningoo Premium Meal</p>
                 </div>
               </div>

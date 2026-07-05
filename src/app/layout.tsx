@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   title: "Bningoo — Premium Office Food Service",
   description:
     "Bningoo delivers premium office meals. Companies sign up, employees order, and we handle the rest.",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
   openGraph: {
     title: "Bningoo — Premium Office Food Service",
     description:
