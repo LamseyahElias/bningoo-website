@@ -103,11 +103,11 @@ export default function HeroSection() {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center">
                   <Image
-                    src="/logo.png"
+                    src="/bningoo-logo.svg"
                     alt="Bningoo"
-                    width={200}
-                    height={200}
-                    className="w-32 h-32 md:w-40 md:h-40 object-contain mx-auto mb-4 opacity-80"
+                    width={240}
+                    height={67}
+                    className="w-56 h-auto mx-auto mb-4 opacity-80"
                   />
                   <p className="text-gray-500 text-sm">Bningoo Premium Meal</p>
                 </div>

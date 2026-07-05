@@ -37,13 +37,12 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#hero" className="flex items-center gap-2">
             <Image
-              src="/logo-nav.png"
+              src="/bningoo-logo.svg"
               alt="Bningoo"
-              width={36}
-              height={36}
-              className="h-8 w-auto"
+              width={100}
+              height={28}
+              className="h-7 w-auto"
             />
-            <span className="text-white font-bold text-xl">Bningoo</span>
           </a>
 
           {/* Desktop links */}

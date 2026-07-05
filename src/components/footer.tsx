@@ -9,13 +9,12 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <Image
-                src="/logo-nav.png"
+                src="/bningoo-logo.svg"
                 alt="Bningoo"
-                width={36}
-                height={36}
+                width={120}
+                height={34}
                 className="h-8 w-auto"
               />
-              <span className="text-white font-bold text-xl">Bningoo</span>
             </div>
             <p className="text-gray-500 text-sm leading-relaxed">
               Premium office food service. Part of Lamseyah Corp.
